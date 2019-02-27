@@ -20,5 +20,5 @@ const AJAX = (function() {
 })();
 
 (function main() {
-    Wallpaper.init().then(Wallpaper.start);
+    Wallpaper.init("background-0.7").then(Wallpaper.start);
 })();

@@ -1,4 +1,4 @@
-const Wallpaper = (function (image, countClosest = 5) {
+const Wallpaper = (function (countClosest = 5) {
     let stars  = [];
     let width  = window.innerWidth;
     let height = window.innerHeight;
@@ -7,7 +7,7 @@ const Wallpaper = (function (image, countClosest = 5) {
     let canvas  = document.getElementById('wallpaper');
     let context = canvas.getContext('2d');
 
-    function init() {
+    function init(image) {
         canvas.width  = width;
         canvas.height = height;
 
@@ -163,4 +163,4 @@ const Wallpaper = (function (image, countClosest = 5) {
         init:  init,
         start: animate
     }
-})("background-0.7");
+})();
