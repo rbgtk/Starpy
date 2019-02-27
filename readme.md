@@ -7,6 +7,7 @@ Something I put together for fun with a little demo ;-)
 The Stars.py script requires you to install both PIL and Numpy. You can install them with the following commands:
 
 `pip install Pillow`
+
 `pip install numpy`
 
 ## Introduction
